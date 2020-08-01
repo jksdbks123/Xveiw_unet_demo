@@ -157,3 +157,5 @@ if __name__ == '__main__':
         seed=1,
         crop_size=crop_size,
         augment=True)
+    x,y = train_gen[0]
+    print(x.shape,y.shape)
