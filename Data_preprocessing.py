@@ -1,17 +1,10 @@
 import os
 import sys
-import random
-import re
-from PIL import Image, ImageDraw
-import matplotlib.pyplot as plt
-import pandas as pd
 from pathlib import Path
 import imageio
 from collections import defaultdict
 # Create folders to hold images and masks
 from shapely import wkt
-from shapely.geometry.multipolygon import MultiPolygon
-import cv2
 import json
 import numpy as np
 import skimage.draw
